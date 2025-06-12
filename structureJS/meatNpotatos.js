@@ -62,10 +62,6 @@ const content = document.getElementById("page_section");
 
 
 meat.innerHTML = `
-<section class="page_section"></section></section>
-<section class="page_section"></section></section>
-<section class="page_section"></section></section>
-<section class="page_section"></section></section>
 `
 
 meat.innerHTML = `
