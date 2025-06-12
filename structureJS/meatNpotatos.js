@@ -69,15 +69,5 @@ meat.innerHTML = `
 `
 
 meat.innerHTML = `
-    <article>
-        <section class="article_header">
-            <header>
-                <hgroup>
-                    <h2></h2>
-                    <p></p>
-                </hgroup>
-            </header>
-        </section>
-        <section class="article_content"></section>
-    </article>
+
 `
