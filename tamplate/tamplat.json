@@ -1,0 +1,40 @@
+{
+    "tamplets": {
+        "sections": 
+    "<article class=\"page_saction-article\">
+    <header class=\"page_saction-article_header\">
+            <hgroup class=\"page_saction-article_header-hgroup\">
+                <h2 class=\"page_saction-article_header-hgroup_headline\"></h2>
+                <p class=\"page_saction-article_header-hgroup_discription\"></p>
+            </hgroup>
+        </header>
+        <section class=\"page_saction-article_content\"></section>
+    </article>, "servies": " <div class=\"services_content felx flex-left\"><!--diraction-right-->
+        <div class=\"services_content-textbox\">
+            <h3 class=\"services_content-textbox_headline\">Lorem.</h3>
+            <p class=\"services_content-textbox_text\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas saepe
+                facere accusantium doloribus
+                obcaecati rerum distinctio architecto exercitationem dolores id?</p>
+            <p class=\"services_content-textbox_text\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas saepe
+                facere accusantium doloribus
+                obcaecati rerum distinctio architecto exercitationem dolores id?</p>
+        </div>
+        <div class=\"services_content-textbox_img_frame\">
+            <img src="" alt=""
+                class=\"services_content-textbox_img\">
+        </div>
+    </div>"
+    }
+}
+
+{
+    "tamplets": {
+        "sections": "<article class=\"page_saction-article\"><header class=\"page_saction-article_header\"><hgroup class=\"page_saction-article_header-hgroup\"><h2 class=\"page_saction-article_header-hgroup_headline\"></h2><p class=\"page_saction-article_header-hgroup_discription\"></p></hgroup></header><section class=\"page_saction-article_content\"></section></article>",
+        "servies": {
+            "left": "<div class=\"services_content felx flex-left\"><div class=\"services_content-textbox\"><h3 class=\"services_content-textbox_headline\">.</h3><p class=\"services_content-textbox_text\"></p><p class=\"services_content-textbox_text\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas saepe facere accusantium doloribus obcaecati rerum distinctio architecto exercitationem dolores id?</p></div><div class=\"services_content-textbox_img_frame\"><img src=\"\" alt=\"\" class=\"services_content-textbox_img\"></div></div>",
+            "right": "<div class=\"services_content felx flex-right\"><div class=\"services_content-textbox\"><h3 class=\"services_content-textbox_headline\">.</h3><p class=\"services_content-textbox_text\"></p></div><div class=\"services_content-textbox_img_frame\"><img src=\"\" alt=\"\" class=\"services_content-textbox_img\"></div></div>"
+        },
+        "servicecards": "<div class=\"services_content-card\"><div class=\"services_content-card_img_frame\"><img src="" alt="" class=\"services_content-card_img\"></div><h4 class=\"services_content-card-headline\"></h4><p class=\"services_content-card-text\">Lorem ipsum dolor sit amet consectetur.</p</div>",
+        "tatings": "<div class=\"rating_card\"><div class=\"rating_card-textbox\"><p class=\"rating_card-textbox_text\"></p><stars class=\"rating_card-textbox_rat\"></div><div class=\"rating_card-who\"><div class=\"rating_card-who_img-frame\"><img src="" alt="" class=\"rating_card-who_img\"></div><p class=\"rating_card-who_name\"></p><p class=<\"rating_card-who_a\"></p></div></div>"
+    }
+}

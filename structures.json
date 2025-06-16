@@ -1,3 +1,3 @@
 {
-    "html": "<article>\n    <section class=\"article_header\">\n        <header>\n            <hgroup>\n                <h2></h2>\n                <p></p>\n            </hgroup>\n        </header>\n    </section>\n    <section class=\"article_content\"></section>\n</article>"
+  "mainsections": "<article><section class=\"article_header\"><header><hgroup><h2></h2><p></p></hgroup></header></section><section class=\"article_content\"></section></article>"
 }

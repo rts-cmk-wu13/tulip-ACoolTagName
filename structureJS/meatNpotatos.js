@@ -58,7 +58,7 @@ meat.innerHTML = `
 
 const meat = document.querySelector("main");
 
-const content = document.getElementById("page_section");
+const content = document.querySelectorAll("page_section");
 
 
 meat.innerHTML = `
