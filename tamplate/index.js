@@ -3,3 +3,7 @@ fetch("template.json")
 .then(data => {
     const linehead = document.getElementById("logograf");
     linehead.innerHTML = data.ta
+
+
+
+    
