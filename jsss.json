@@ -1,0 +1,25 @@
+{
+    "peopel": [
+        {
+            "name": {"first": "John", "last": "Doe"},
+            "age": 30,
+            "occupation": "1"
+        },
+        {
+            "name": "Jane Smith",
+            "age": 25,
+            "occupation": "2"
+        }
+    ],
+    "ocupation": [
+        {
+            "id": 1,
+            "title": "Software Engineer",
+            "description": "Responsible for developing and maintaining software applications."
+        },
+        {   "id": 2,
+            "title": "Data Scientist",
+            "description": "Analyzes and interprets complex data to help organizations make informed decisions."
+        }
+    ],
+}
