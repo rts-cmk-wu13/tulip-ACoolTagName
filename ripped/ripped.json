@@ -1,0 +1,39 @@
+{
+    "page_Sections": [
+        {
+            "page_section_tamplet":"<section class='page_saction'><article class='page_saction-article'><header class='page_saction-article_header'><hgroup class='page_saction-article_header-hgroup'><h2 class='page_saction-article_header-hgroup_headline'></h2><p class='page_saction-article_header-hgroup_discription'></p></header><section class='page_saction-article_content' id='${id}'><section class='services_subsection'></section><section class='services_subsection'></section></section></article></section>"
+        },
+        {
+            "page_section_ids": {
+                "1": "room_section",
+                "2": "services_section",
+                "3": "gallery_section",
+                "4": "rating_section"
+            }
+        }
+    ],
+    "main_sections": [
+        {
+            "rooms": {}
+        },
+        {
+            "services": [
+                {
+                    "servies_content_left": "<div class='services_content felx flex-left'><div class='services_content-textbox'><h3 class='services_content-textbox_headline'></h3><p class='services_content-textbox_text'></p><p class='services_content-textbox_text'></p></div><div class='services_content-textbox_img_frame'><img src=' alt=' class='services_content-textbox_img'></div></div>"
+                },
+                {
+                    "servies_content_right": "<div class='services_content felx flex-right'><div class='services_content-textbox'><h3 class='services_content-textbox_headline'></h3><p class='services_content-textbox_text'></p><p class='services_content-textbox_text'></p></div><div class='services_content-textbox_img_frame'><img src=' alt=' class='services_content-textbox_img'></div></div>"
+                },
+                {
+                    "service_card": "<div class='services_content-card'>div class='services_content-card_img_frame'><img src=' alt=' class='services_content-card_img'></div><h4 class='services_content-card-headline'></h4><p class='services_content-card-text'></p></div>"
+                }
+            ]
+        },
+        {
+            "gallery": {}
+        },
+        {
+            "ratting": {}
+        }
+    ]
+}

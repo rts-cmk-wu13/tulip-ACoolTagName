@@ -1,0 +1,12 @@
+{
+    "root": "<div='wrapper'></div>",
+    "fundementals": "<div='wrapper'><header id='header'></header><main></main><footer></footer></div>",
+    "header": "<hgroup><nav></nav></hgroup>",
+    "page_section": "<section><article><header><hgroup><h3></h3><p></p></hgroup></header><section></section></article></section>",
+    "first": {
+        "secund": "third",
+        "fourth": "fivth"
+    },
+    "": "",
+    "": ""
+}

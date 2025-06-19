@@ -1,8 +1,0 @@
-{
-  "headline": "Welcome to My Hotel",
-  "description": "Enjoy your stay with us!",
-  "type": "hotel",
-  "headlineHtml": "<h1 id=\"headline\"></h1>",
-  "section": "<section>",
-  "pagestructuresection": "<section class=\"page_saction\"><article class=\"page_saction-article\"><header class=\"page_saction-article_header\"><hgroup class=\"page_saction-article_header-hgroup\"></hgroup></header><section class=\"page_saction-article_content\"></section></article></section>"
-}
