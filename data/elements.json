@@ -1,0 +1,23 @@
+{
+    "root": "<div id='wrapper'></div>",
+    "primal": "<header id='header'></header><main><section class='page_saction' id='rooms'></section><section class='page_saction' id='services'></section><section class='page_saction' id='gallery'></section><section class='page_saction' id='ratting'></section></main><footer id='footer'></footer>",
+    "header": "<hgroup><h1 id='headline'></h1><nav></nav></hgroup>",
+    "footer": "<article id='footer_article'><div class='flex'><div><div class='imgframe'><img src='' alt=''></div><p></p><div><a href=''><i class='fa-solid fa-image'></i></a><a href=''><i class='fa-solid fa-image'></i></a><a href=''><i class='fa-solid fa-image'></i></a><a href=''><i class='fa-solid fa-image'></i></a></div><div></div></div><div><h4></h4><a href=''></a><a href=''></a><a href=''></a><a href=''></a><a href=''></a></div><div><h4></h4><div><a href=''></a><p></p></div><div><a href=''></a><p></p></div><div><a href=''></a><p></p></div></div></div></article>",
+    "page_section": "<article class='page_saction-article'><header class='page_saction-article_header'><hgroup class='page_saction-article_header-hgroup'><h2 class='page_saction-article_header-hgroup_headline'></h2><p class='page_saction-article_header-hgroup_discription'></p></header><section class='page_saction-article_content' id='${id}'><section class='services_subsection'></section><section class='services_subsection'></section></section></article>",
+    "rooms": {
+        "rooms_card": "<div class='room_card-frame'><div class='room_card-img_frame'><img src=' alt=' class='room_card-img'></div><div class='room_card-textbox'><div><h4 class='room_card-textbox-name'></h4><div class='pris'></div></div><p class='room_card-textbox-text'></p><a href=' class='room_card-textbox-button'><i></i></a></div></div>"
+    },
+    "services": {
+        "servies_content_left": "<div class='services_content felx flex-left'><div class='services_content-textbox'><h3 class='services_content-textbox_headline'></h3><p class='services_content-textbox_text'></p><p class='services_content-textbox_text'></p></div><div class='services_content-textbox_img_frame'><img src=' alt=' class='services_content-textbox_img'></div></div>",
+        "servies_content_right": "<div class='services_content felx flex-right'><div class='services_content-textbox'><h3 class='services_content-textbox_headline'></h3><p class='services_content-textbox_text'></p><p class='services_content-textbox_text'></p></div><div class='services_content-textbox_img_frame'><img src=' alt=' class='services_content-textbox_img'></div></div>",
+        "service_card": "<div class='services_content-card'>div class='services_content-card_img_frame'><img src=' alt=' class='services_content-card_img'></div><h4 class='services_content-card-headline'></h4><p class='services_content-card-text'></p></div>"
+    },
+    "gallery": "",
+    "ratting": {
+        "ratting_card": "<div class='rating_card'><div class='rating_card-textbox'><p class='rating_card-textbox_text'></p><stars class='rating_card-textbox_rat'></div><div class='rating_card-who'><div class='rating_card-who_img-frame'><img src='' alt='' class='rating_card-who_img'></div><p class='rating_card-who_name'></p><p class='rating_card-who_a'></p></div></div>"
+    },
+    "test": {
+        "headline": "Welcome!",
+        "desc": "Enjoy your stay."
+    }
+}

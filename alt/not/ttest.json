@@ -1,0 +1,21 @@
+{
+    "root": "<div id='wrapper'></div>",
+    "primal": {
+        "primals": "<header id='header'></header><main></main><footer id='footer'></footer>",
+        "header": "<hgroup><h1 id='headline'></h1><nav></nav></hgroup>",
+        "page": {
+            "page_section": "<section><article><header><hgroup><h3></h3><p></p></hgroup></header><section></section></article></section>",
+            "sections": {
+                "rooms": {
+                    "rooms_card": "<div class='room_card-frame'><div class='room_card-img_frame'><img src=' alt=' class='room_card-img'></div><div class='room_card-textbox'><div><h4 class='room_card-textbox-name'></h4><div class='pris'></div></div><p class='room_card-textbox-text'></p><a href=' class='room_card-textbox-button'><i></i></a></div></div>"
+                },
+                "services": {
+                    "servies_content_left": "<div class='services_content felx flex-left'><div class='services_content-textbox'><h3 class='services_content-textbox_headline'></h3><p class='services_content-textbox_text'></p><p class='services_content-textbox_text'></p></div><div class='services_content-textbox_img_frame'><img src=' alt=' class='services_content-textbox_img'></div></div>",
+                    "servies_content_right": "<div class='services_content felx flex-right'><div class='services_content-textbox'><h3 class='services_content-textbox_headline'></h3><p class='services_content-textbox_text'></p><p class='services_content-textbox_text'></p></div><div class='services_content-textbox_img_frame'><img src=' alt=' class='services_content-textbox_img'></div></div>",
+                    "service_card": "<div class='services_content-card'>div class='services_content-card_img_frame'><img src=' alt=' class='services_content-card_img'></div><h4 class='services_content-card-headline'></h4><p class='services_content-card-text'></p></div>"
+                }
+            }
+        },
+        "footer": ""
+    }
+}

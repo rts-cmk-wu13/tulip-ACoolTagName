@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+
+
+@media screen and (max-width: 600px /* --- monitor ---*/) {
+   
+}
+
+
+@media screen and (max-width: 600px /* --- tablet ---*/) {
+   
+}
+
+
+@media screen and (max-width: 600px /* --- phone ---*/) {
+   
+}
+
+
+@media screen and (max-width: 600px /* --- watch ---*/) {
+   
+}
+    
