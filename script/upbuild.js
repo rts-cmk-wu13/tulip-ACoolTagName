@@ -1,7 +1,7 @@
 fetch('/data/elements.json')
   .then(response => response.json())
   .then(data => {
-    document.getElementById('body').innerHTML = data.root;
+    document.querySelector('body').innerHTML = data.root;
     document.getElementById('wrapper').innerHTML = data.primal;
     document.getElementById('header').innerHTML = data.header;
     document.getElementById('rooms').innerHTML = data.page_section;
