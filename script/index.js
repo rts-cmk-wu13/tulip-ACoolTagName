@@ -10,10 +10,11 @@ document.createElement("article")
 fetch('http://localhost:4000/rooms')
     .then(response => response.json())
     .then(data => {
-
-
+        const secArtic = document.createElement("article");
+        const roomSec = document.getElementById('rooms');
+        roomSec.append(secArtic);
         // console.log(data.roomtypes);
-
+        
 
 
 
