@@ -23,18 +23,34 @@ fetch('http://localhost:4000/rooms')
 
 
 
-fetch('http://localhost:4000/services')
+fetch('http://localhost:4000/spots')
     .then(response => response.json())
     .then(data => {
 
         document.getElementById('services_headline-h').innerHTML = data.headline;
         document.getElementById('services_headline-p').innerHTML = data.text;
+        const servicesCIA = document.getElementById('services_content-info_area');
+        const servicesCCA = document.getElementById('services_content-cards_area');
+        
+        data.map((element) => {
 
-        data.services.map((element) => {
 
+            const sectionI = document.createElement('section'); servicesCIA.append(sectionI)
+
+
+
+
+
+            const sectionC = document.createElement('section'); servicesCCA.append(sectionC)
+            const img = document.createElement('img'); sectionC.append(img);
+            const h2 = document.createElement('h2'); sectionC.append(h2); 
+            const p = document.createElement('p'); sectionC.append(p);
+            console.log(sectionC);
+            img.src = element.icon
+            h2.innerHTML = element.name
+            p.innerHTML = element.text
 
         })
-
 
 
     })
