@@ -39,14 +39,15 @@ fetch('http://localhost:4000/services')
         data.facilities.map((element) => {
 
             const sectionInfo = document.createElement('section'); servicesCInfoArea.append(sectionInfo);
-            const infoDiv = document.createElement('div'); sectionInfo.append(infoDiv)
+            const infoDiv = document.createElement('div'); sectionInfo.append(infoDiv);
             const h2 = document.createElement('h2'); infoDiv.append(h2); h2.innerHTML = element.name;
             const p1 = document.createElement('p'); infoDiv.append(p1); p1.innerHTML = element.text1;
             const p2 = document.createElement('p'); infoDiv.append(p2); p2.innerHTML = element.text2;
+            const imgframe = document.createElement('div'); sectionInfo.append(imgframe);
+            const img = document.createElement('img'); imgframe.append(img); img.src = element.image
+
 
         })
-
-
 
     })
     .catch(error => console.error(error));
@@ -73,9 +74,12 @@ fetch('http://localhost:4000/spots')
 
         })
 
-
     })
     .catch(error => console.error(error));
+
+
+
+
 
 
 
@@ -95,10 +99,12 @@ fetch('http://localhost:4000/gallery')
 
         })
 
-
-
     })
     .catch(error => console.error(error));
+
+
+
+
 
 
 
@@ -117,8 +123,6 @@ fetch('http://localhost:4000/reviews')
 
 
         })
-
-
 
     })
     .catch(error => console.error(error));

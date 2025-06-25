@@ -18,6 +18,19 @@ main section article header hgroup h2 {
     
 }
 
+#services_content-info_area section {
+    display: flex;
+
+}
+
+#services_content-info_area section div h2 {
+    color: #0083CA;
+
+}
+#services_content-info_area section div img {
+    width: 37rem;
+
+}
 
 @media screen and (max-width: 600px
     /* --- monitor ---*/
