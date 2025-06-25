@@ -8,7 +8,7 @@
         "rooms_id": "rooms",
         "services.id": "services",
         "gallery_id": "gallery",
-        "ratting_id": "ratting"
+        "ratting_id": "reviews"
     },
     "sections": [
         {
@@ -28,7 +28,7 @@
             "gallery": ""
         },
         {
-            "id": "ratting",
+            "id": "reviews",
             "ratting": {
                 "ratting_card": "<div class='rating_card'><div class='rating_card-textbox'><p class='rating_card-textbox_text'></p><stars class='rating_card-textbox_rat'></div><div class='rating_card-who'><div class='rating_card-who_img-frame'><img src='' alt='' class='rating_card-who_img'></div><p class='rating_card-who_name'></p><p class='rating_card-who_a'></p></div></div>"
             }
