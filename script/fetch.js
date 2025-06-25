@@ -1,26 +1,92 @@
-fetch('http://localhost:4000/')
+
+
+fetch('http://localhost:4000/rooms')
     .then(response => response.json())
     .then(data => {
 
-        // console.log(data.roomtypes);
+        document.getElementById('rooms_headline-h').innerHTML = data.headline;
+        document.getElementById('rooms_headline-p').innerHTML = data.text;
 
-        data.roomtypes.map((element) => {
-            let figure = document.createElement("figure")
-            let thisImg = document.createElement("img");
-            wrapper.append(figure)
-            figure.append(thisImg)
-            thisImg.src = element.image
-
-            const jam = document.createElement("section").src = data.roomtypes[0].image;
-
+        data.rooms.map((element) => {
 
 
         })
-        // Set the image URL as the src of the img element
-        document.getElementById('img').src = data.roomtypes[0].image;
-        document.getElementById('img').alt = data.headline;
 
 
 
     })
     .catch(error => console.error(error));
+
+
+
+
+
+
+
+fetch('http://localhost:4000/services')
+    .then(response => response.json())
+    .then(data => {
+
+        document.getElementById('services_headline-h').innerHTML = data.headline;
+        document.getElementById('services_headline-p').innerHTML = data.text;
+
+        data.services.map((element) => {
+
+
+        })
+
+
+
+    })
+    .catch(error => console.error(error));
+
+
+
+
+
+
+
+fetch('http://localhost:4000/gallery')
+    .then(response => response.json())
+    .then(data => {
+
+        document.getElementById('gallery_headline-h').innerHTML = data.headline;
+        document.getElementById('gallery_headline-p').innerHTML = data.text;
+
+        data.gallery.map((element) => {
+
+
+        })
+
+
+
+    })
+    .catch(error => console.error(error));
+
+
+
+
+
+
+
+fetch('http://localhost:4000/reviews')
+    .then(response => response.json())
+    .then(data => {
+
+        document.getElementById('reviews_headline-h').innerHTML = data.headline;
+        document.getElementById('reviews_headline-p').innerHTML = data.text;
+
+        data.reviews.map((element) => {
+
+
+        })
+
+
+
+    })
+    .catch(error => console.error(error));
+
+
+
+
+
