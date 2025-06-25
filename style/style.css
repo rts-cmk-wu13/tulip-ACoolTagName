@@ -6,8 +6,16 @@
 
 
 #services_content-cards_area {
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+#services_content-info_area {
+    width: 80%;
+}
+
+main section article header hgroup h2 {
+    
 }
 
 
