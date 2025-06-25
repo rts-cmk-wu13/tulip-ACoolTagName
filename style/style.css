@@ -5,25 +5,27 @@
 }
 
 
-
-
-
-@media screen and (max-width: 600px /* --- monitor ---*/) {
-   
+#services_content-cards_area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 
-@media screen and (max-width: 600px /* --- tablet ---*/) {
-   
-}
+@media screen and (max-width: 600px
+    /* --- monitor ---*/
+) {}
 
 
-@media screen and (max-width: 600px /* --- phone ---*/) {
-   
-}
+@media screen and (max-width: 600px
+    /* --- tablet ---*/
+) {}
 
 
-@media screen and (max-width: 600px /* --- watch ---*/) {
-   
-}
-    
+@media screen and (max-width: 600px
+    /* --- phone ---*/
+) {}
+
+
+@media screen and (max-width: 600px
+    /* --- watch ---*/
+) {}
